@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "c": "http://comparedick.glory/def#",
+    "d":"http://comparedick.glory/data/",
+    "@base":"http://comparedick.glory/data/",
+    "killID":"@id",
+    "killTime":"c:killTime"
+  },
+  "@graph":{
+    "@id":"d:90319222",
+    "c:kill":[
+      {
+        "killID":"50486301",
+        "killTime":"2015-12-03 10:00:05"
+      },
+      {
+        "killID":"50486302",
+        "killTime":"2015-12-03 10:00:05"
+      }
+    ]
+  }
+}

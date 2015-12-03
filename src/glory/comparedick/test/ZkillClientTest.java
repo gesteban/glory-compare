@@ -1,15 +1,15 @@
 package glory.comparedick.test;
 
-import glory.comparedick.zkill.ZkillClient;
+import glory.comparedick.model.ZkillModel;
 
 public class ZkillClientTest {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 
-		ZkillClient client = new ZkillClient();
-
-		System.out.println(client.getKillsFromCharacter("90319222"));
+		ZkillModel model = new ZkillModel();
+		model.updateCharKills("90319222");
+		model.print();
+		model.updateCharKills("90319222");
 
 	}
-
 }

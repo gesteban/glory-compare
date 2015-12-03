@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "c": "http://comparedick.glory/def#",
+    "d":"http://comparedick.glory/data/",
+    "@base":"http://comparedick.glory/data/",
+    "killID":"@id",
+    "solarSystemID": {
+      "@id":"c:solarSystem",
+      "@type":"@id"
+    },
+    "victim": {
+      "@id":"c:victim",
+      "@type":"c:Character"
+    },
+    "characterID":"@id",
+    "killTime":"c:killTime"
+  },
+  "@graph":{
+    "@id":"d:90319222",
+    "c:kill":[
+      {
+        "killID":"50486301",
+        "solarSystemID":30045352,
+        "killTime":"2015-12-03 10:00:05",
+        "victim":{
+          "characterID":"94213680"
+        },
+        "zkb":{
+          "locationID":60015073,
+          "hash":"04b7683c4b7adf3481cd4f608da666165cd30915",
+          "totalValue":696605.55
+      	}
+      },
+      {
+        "killID":"50486302",
+        "solarSystemID":30045352,
+        "killTime":"2015-12-03 10:00:05",
+        "victim":{
+          "characterID":"94213680"
+        },
+        "zkb":{
+          "locationID":60015073,
+          "hash":"04b7683c4b7adf3481cd4f608da666165cd30915",
+          "totalValue":696605.55
+      	}
+      }
+    ]
+  }
+}

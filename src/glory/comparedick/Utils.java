@@ -1,9 +1,13 @@
 package glory.comparedick;
 
 import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
@@ -60,6 +64,20 @@ public class Utils {
 			}
 		}
 		return sb.toString();
+	}
+
+	public static InputStream convertStringToStream(String string) {
+		return new ByteArrayInputStream(string.getBytes(StandardCharsets.UTF_8));
+	}
+
+	public static String fileToString(String fileName) {
+		try {
+			File file = new File(System.getProperty("user.dir")
+					+ System.getProperty("file.separator"), fileName);
+			return Utils.convertStreamToString(new FileInputStream(file));
+		} catch (Exception ex) {
+			return null;
+		}
 	}
 
 }
