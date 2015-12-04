@@ -8,12 +8,9 @@
       "@id":"c:solarSystem",
       "@type":"@id"
     },
-    "victim": {
-      "@id":"c:victim",
-      "@type":"c:Character"
-    },
-    "characterID":"@id",
-    "killTime":"c:killTime"
+    "victim":"c:victim",
+    "killTime":"c:killTime",
+    "attackers":"c:attacker"
   },
   "@graph":{
     "@id":"d:90319222",
@@ -25,6 +22,17 @@
         "victim":{
           "characterID":"94213680"
         },
+        "attackers":[
+          {
+            "characterID":"91525773",
+            "characterName":"pedro",
+            "corporationID":"1393902911"
+          },
+          {
+            "characterID":"91525774",
+            "characterName":"juan"
+          }
+        ],
         "zkb":{
           "locationID":60015073,
           "hash":"04b7683c4b7adf3481cd4f608da666165cd30915",
@@ -36,7 +44,8 @@
         "solarSystemID":30045352,
         "killTime":"2015-12-03 10:00:05",
         "victim":{
-          "characterID":"94213680"
+          "characterID":"0",
+          "corporationID":"1393902911"
         },
         "zkb":{
           "locationID":60015073,

@@ -18,26 +18,29 @@ public class ZkillClient {
 	private static final String PETITION_CHARACTER_FETCH = "/characterID/";
 	private static final String PETITION_CORPORATION_FETCH = "/corporationID/";
 	private static final String PETITION_ALLIANCE_FETCH = "/allianceID/";
-	private static final String PETITION_INFORMATION_MODIFIERS = "/no-items/no-attackers/";
+	private static final String PETITION_NOITEMS_MODIFIERS = "/no-items/";
+	private static final String PETITION_NOATTACKERS_MODIFIERS = "/no-attackers/";
 	private static final String PETITION_KILLTIME_MODIFIER = "/afterKillID/XX/";
 
 	public ZkillClient() {
 
 	}
 
+	/**
+	 * @return a JSON array with kills
+	 */
 	public String getKillsFromCharacter(String charId, String killId) {
 		Client client = ClientBuilder.newClient();
 		WebTarget target = client.target(getBaseURI());
 		WebTarget webTarget;
 		if (killId == null || killId.isEmpty()) {
 			webTarget = target.path(PETITION_CHARACTER_FETCH).path(charId)
-					.path(PETITION_INFORMATION_MODIFIERS);
+					.path(PETITION_NOITEMS_MODIFIERS);
 		} else {
 			webTarget = target.path(PETITION_CHARACTER_FETCH).path(charId)
-					.path(PETITION_INFORMATION_MODIFIERS)
+					.path(PETITION_NOITEMS_MODIFIERS)
 					.path(PETITION_KILLTIME_MODIFIER.replace("XX", killId));
 		}
-		System.out.println(">>" + webTarget.toString());
 		Response response = webTarget.request().get();
 		Log.d(TAG, response.toString());
 		String responseEntity = null;

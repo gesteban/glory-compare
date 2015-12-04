@@ -8,12 +8,12 @@
       "@id":"c:solarSystem",
       "@type":"@id"
     },
-    "victim": {
-      "@id":"c:victim",
-      "@type":"c:Character"
+    "victim":"c:victim",
+    "killTime": {
+      "@id":"c:killTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
     },
-    "characterID":"@id",
-    "killTime":"c:killTime"
+    "attackers":"c:attacker"
   },
   "@graph":{
     "@id":"d:CHAR_ID",

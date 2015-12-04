@@ -1,0 +1,275 @@
+#frigate
+582	Bantam	50
+583	Condor	50
+584	Griffin	50
+585	Slasher	50
+586	Probe	50
+587	Rifter	50
+589	Executioner	50
+590	Inquisitor	50
+591	Tormentor	50
+592	Navitas	50
+593	Tristan	50
+594	Incursus	50
+597	Punisher	50
+598	Breacher	50
+599	Burst	50
+602	Kestrel	50
+603	Merlin	50
+605	Heron	50
+607	Imicus	50
+608	Atron	50
+609	Maulus	50
+2161	Crucifier	50
+3532	Echelon	50
+3766	Vigil	50
+17703	Imperial Navy Slicer	50
+17841	Federation Navy Comet	50
+17924	Succubus	50
+17926	Cruor	50
+17928	Daredevil	50
+17930	Worm	50
+17932	Dramiel	50
+29248	Magnate	50
+#covert_ops
+11172	Helios	80
+11182	Cheetah	80
+11188	Anathema	80
+11192	Buzzard	80
+#electronic_attack_ship
+11174	Keres	200
+11190	Sentinel	200
+11194	Kitsune	200
+11387	Hyena	200
+#interceptor
+11176	Crow	60
+11178	Raptor	60
+11184	Crusader	60
+11186	Malediction	60
+11196	Claw	60
+11198	Stiletto	60
+11200	Taranis	60
+11202	Ares	60
+#stealth_bomber
+11377	Nemesis	80
+12032	Manticore	80
+12034	Hound	80
+12038	Purifier	80
+#assault_frigate
+2834	Utu	100
+3516	Malice	100
+11365	Vengeance	100
+11371	Wolf	100
+11379	Hawk	100
+11381	Harpy	100
+11393	Retribution	100
+11400	Jaguar	100
+12042	Ishkur	100
+12044	Enyo	100
+32207	Freki	100
+#destroyer
+16236	Coercer	60
+16238	Cormorant	60
+16240	Catalyst	60
+16242	Thrasher	60
+#interdictor
+22452	Heretic	60
+22456	Sabre	60
+22460	Eris	60
+22464	Flycatcher	60
+#cruiser
+620	Osprey	100
+621	Caracal	100
+622	Stabber	100
+623	Moa	100
+624	Maller	100
+625	Augoror	100
+626	Vexor	100
+627	Thorax	100
+628	Arbitrator	100
+629	Rupture	100
+630	Bellicose	100
+631	Scythe	100
+632	Blackbird	100
+633	Celestis	100
+634	Exequror	100
+2006	Omen	100
+17709	Omen Navy Issue	100
+17713	Stabber Fleet Issue	100
+17715	Gila	100
+17718	Phantasm	100
+17720	Cynabal	100
+17722	Vigilant	100
+17843	Vexor Navy Issue	100
+17922	Ashimmu	100
+29336	Scythe Fleet Issue	100
+29337	Augoror Navy Issue	100
+29340	Osprey Navy Issue	100
+29344	Exequror Navy Issue	100
+#logistics
+11978	Scimitar	175
+11985	Basilisk	175
+11987	Guardian	175
+11989	Oneiros	175
+#recon_ship
+11957	Falcon	350
+11959	Rook	350
+11961	Huginn	350
+11963	Rapier	350
+11965	Pilgrim	350
+11969	Arazu	350
+11971	Lachesis	350
+20125	Curse	350
+#heavy_assault_ship
+2836	Adrestia	400
+3518	Vangel	400
+11993	Cerberus	400
+11999	Vagabond	400
+12003	Zealot	400
+12005	Ishtar	400
+12011	Eagle	400
+12015	Muninn	400
+12019	Sacrilege	400
+12023	Deimos	400
+32209	Mimir	400
+#heavy_interdictor
+11995	Onyx	6000
+12013	Broadsword	600
+12017	Devoter	600
+12021	Phobos	600
+#strategic_cruiser
+29984	Tengu	750
+29986	Legion	750
+29988	Proteus	750
+29990	Loki	750
+#battlecruiser
+4302	Oracle	300
+4306	Naga	300
+4308	Talos	300
+4310	Tornado	300
+16227	Ferox	250
+16229	Brutix	250
+16231	Cyclone	250
+16233	Prophecy	250
+24696	Harbinger	250
+24698	Drake	250
+24700	Myrmidon	250
+24702	Hurricane	250
+#command
+22442	Eos	450
+22444	Sleipnir	450
+22446	Vulture	450
+22448	Absolution	450
+22466	Astarte	450
+22468	Claymore	450
+22470	Nighthawk	450
+22474	Damnation	450
+#battleship
+638	Raven	750
+639	Tempest	750
+640	Scorpion	750
+641	Megathron	750
+642	Apocalypse	750
+643	Armageddon	750
+644	Typhoon	750
+645	Dominix	750
+17726	Apocalypse Navy Issue	750
+17728	Megathron Navy Issue	750
+17732	Tempest Fleet Issue	750
+17736	Nightmare	750
+17738	Machariel	750
+17740	Vindicator	750
+17918	Rattlesnake	750
+17920	Bhaalgorn	750
+24688	Rokh	750
+24690	Hyperion	750
+24692	Abaddon	750
+24694	Maelstrom	750
+#marauder
+28659	Paladin	1000
+28661	Kronos	1000
+28665	Vargur	1000
+28710	Golem	1000
+#black_ops
+22428	Redeemer	1800
+22430	Sin	1800
+22436	Widow	1800
+22440	Panther	1800
+#industrial
+648	Badger	20
+649	Badger Mark II	20
+650	Iteron	20
+651	Hoarder	20
+652	Mammoth	20
+653	Wreathe	20
+654	Iteron Mark II	20
+655	Iteron Mark III	20
+656	Iteron Mark IV	20
+657	Iteron Mark V	20
+1944	Bestower	20
+2863	Primae	20
+2998	Noctis	20
+19744	Sigil	20
+#transport
+12729	Crane	125
+12731	Bustard	30
+12733	Prorator	125
+12735	Prowler	125
+12743	Viator	125
+12745	Occator	30
+12747	Mastodon	30
+12753	Impel	30
+#freighter
+20183	Providence	300
+20185	Charon	300
+20187	Obelisk	300
+20189	Fenrir	300
+#jump_freighter
+28844	Rhea	500
+28846	Nomad	500
+28848	Anshar	500
+28850	Ark	500
+#mining_barge
+17476	Covetor	20
+17478	Retriever	20
+17480	Procurer	20
+#exhumer
+22544	Hulk	20
+22546	Skiff	20
+22548	Mackinaw	20
+#industrial_command
+28606	Orca	800
+#capital_industrial
+28352	Rorqual	1000
+#dreadnought
+19720	Revelation	4000
+19722	Naglfar	4000
+19724	Moros	4000
+19726	Phoenix	4000
+#carrier
+23757	Archon	3000
+23911	Thanatos	3000
+23915	Chimera	3000
+24483	Nidhoggur	3000
+#supercarrier
+3514	Revenant	6000
+22852	Hel	6000
+23913	Nyx	6000
+23917	Wyvern	6000
+23919	Aeon	6000
+#titan
+671	Erebus	20000
+3764	Leviathan	20000
+11567	Avatar	20000
+23773	Ragnarok	20000
+#shuttle
+672	Caldari Shuttle	5
+29266	Apotheosis	5
+#prototype_exploration_ship
+2078	Zephyr	5
+#control_tower
+12235	Amarr Control Tower	250
+12236	Gallente Control Tower	250
+12238	Refining Array	10
+12239	Medium Intensive Refining Array	10
+14343	Silo	10

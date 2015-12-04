@@ -1,0 +1,887 @@
+@prefix c:     <http://comparedick.glory/def#> .
+@prefix d:     <http://comparedick.glory/data/> .
+
+d:91278256  a   c:Character ;
+        c:name  "Ivan Gorwitsch" .
+
+d:886825390  a  c:Character ;
+        c:name  "HellGh0st" .
+
+d:50085997  c:attacker  d:95551617 , d:90319222 , d:293066751 , d:94569542 , d:95616217 , d:418214477 ;
+        c:killTime     "2015-11-09T16:47:44"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001585 ;
+        c:totalValue   10000 ;
+        c:victim       d:92027145 .
+
+d:464100216  a  c:Character ;
+        c:name  "Keronte Montano" .
+
+d:93330403  a   c:Character ;
+        c:name  "cookie McGee" .
+
+d:557742561  a  c:Character ;
+        c:name  "Nemesis Eire" .
+
+d:90114174  a   c:Character ;
+        c:name  "Tupelom" .
+
+d:90614216  a   c:Character ;
+        c:name  "voxus dayxun" .
+
+d:90319222  a   c:Character ;
+        c:kill  d:50370243 , d:50051278 , d:45515489 , d:45133610 , d:49445953 , d:49797605 , d:47032880 , d:45884989 , d:46497185 , d:49777268 , d:19043475 , d:49777163 , d:46496956 , d:50372400 , d:46497066 , d:45535544 , d:45515480 , d:45980473 , d:49089077 , d:49797603 , d:49447228 , d:49089816 , d:49117027 , d:49474865 , d:46419096 , d:49542043 , d:45502035 , d:45980467 , d:46496961 , d:49089823 , d:46056216 , d:44612674 , d:49729238 , d:44952729 , d:49542112 , d:45535538 , d:49930516 , d:50051330 , d:45451727 , d:44327951 , d:47032883 , d:45929493 , d:49777225 , d:50085982 , d:44627737 , d:46114116 , d:50372381 , d:50388931 , d:45133641 , d:50386257 , d:49117025 , d:44917044 , d:22204816 , d:50085997 , d:44627751 , d:45515463 , d:46114019 , d:49088299 , d:44627743 , d:49088304 , d:46419127 , d:50372426 , d:49930565 , d:50386221 , d:49445955 , d:49776061 , d:49474874 , d:49777167 , d:49427458 , d:44952692 , d:49089072 , d:49427463 , d:50051345 , d:50386040 ;
+        c:name  "Anthony Blackwater" .
+
+d:50051278  c:attacker  d:293066751 , d:90319222 , d:1550420171 , d:95859770 , d:95262345 , d:95551617 , d:95808144 , d:94569542 , d:92418214 , d:332669222 , d:443254615 ;
+        c:killTime     "2015-11-07T23:41:44"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       14 ;
+        c:solarSystem  d:31001585 ;
+        c:totalValue   1.14348289946E9 ;
+        c:victim       d:1215284951 .
+
+d:46419096  c:attacker  d:90319222 ;
+        c:killTime     "2015-05-04T19:39:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       70 ;
+        c:solarSystem  d:31001509 ;
+        c:totalValue   8.121227851E7 ;
+        c:victim       d:91278256 .
+
+d:95521290  a   c:Character ;
+        c:name  "likvidator Sam" .
+
+d:95231650  a   c:Character ;
+        c:name  "Racsot ESP" .
+
+d:49089816  c:attacker  d:2059228597 , d:90480201 , d:90319222 ;
+        c:killTime     "2015-09-16T17:24:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       6 ;
+        c:solarSystem  d:31000952 ;
+        c:totalValue   7.283008082E7 ;
+        c:victim       d:90458637 .
+
+d:90527521  a   c:Character ;
+        c:name  "Arka Virpia" .
+
+d:1530546530  a  c:Character ;
+        c:name  "Lativka" .
+
+d:1507481627  a  c:Character ;
+        c:name  "Isekaa" .
+
+d:2042705800  a  c:Character ;
+        c:name  "Agrapena" .
+
+d:1601792229  a  c:Character ;
+        c:name  "devast8a99" .
+
+d:49447228  c:attacker  d:90319222 , d:464100216 ;
+        c:killTime     "2015-10-05T19:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001309 ;
+        c:totalValue   1.956786035E7 ;
+        c:victim       d:603735610 .
+
+d:92027145  a   c:Character ;
+        c:name  "Yamiko Sama" .
+
+d:47032880  c:attacker  d:90319222 , d:418214477 ;
+        c:killTime     "2015-06-03T07:44:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       9 ;
+        c:solarSystem  d:31002531 ;
+        c:totalValue   8.4663074E5 ;
+        c:victim       d:95423233 .
+
+d:199694583  a  c:Character ;
+        c:name  "JustMeFigher" .
+
+d:49089077  c:attacker  d:90480201 , d:418214477 , d:332669222 , d:90319222 , d:95231650 ;
+        c:killTime     "2015-09-16T16:27:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001075 ;
+        c:totalValue   3.42192834E7 ;
+        c:victim       d:92480553 .
+
+d:2059228597  a  c:Character ;
+        c:name  "D3VMon" .
+
+d:46497066  c:attacker  d:90319222 , d:91525773 , d:332669222 , d:445724711 , d:90480201 , d:418214477 , d:1990124223 , d:1369913768 , d:95328956 , d:464100216 ;
+        c:killTime     "2015-05-08T20:11:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001585 ;
+        c:totalValue   3.58996629E6 ;
+        c:victim       d:1393902911 .
+
+d:98044009  a   c:Corporation ;
+        c:name  "Gun Runners Inc" .
+
+d:50386221  c:attacker  d:91525773 , d:90319222 ;
+        c:killTime     "2015-11-27T19:34:20"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       9 ;
+        c:solarSystem  d:31001033 ;
+        c:totalValue   2.39134354E6 ;
+        c:victim       d:95943986 .
+
+d:45515489  c:attacker  d:418214477 , d:90319222 , d:332669222 , d:95231650 ;
+        c:killTime     "2015-03-26T12:13:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001360 ;
+        c:totalValue   5.59553351E6 ;
+        c:victim       d:98376710 .
+
+d:1937859658  a  c:Character ;
+        c:name  "Thor300" .
+
+d:44627737  c:attacker  d:332669222 , d:1369913768 , d:418214477 , d:91525773 , d:90319222 ;
+        c:killTime     "2015-02-15T13:23:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       27 ;
+        c:solarSystem  d:31000970 ;
+        c:totalValue   7.683758921E7 ;
+        c:victim       d:98135764 .
+
+d:802909096  a  c:Character ;
+        c:name  "aazmondius" .
+
+d:49427463  c:attacker  d:90319222 , d:418214477 , d:445724711 , d:332669222 ;
+        c:killTime     "2015-10-04T19:26:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       25 ;
+        c:solarSystem  d:31001631 ;
+        c:totalValue   7.000498321E7 ;
+        c:victim       d:1039743689 .
+
+d:293066751  a  c:Character ;
+        c:name  "Astra Odessa" .
+
+d:1183705912  a  c:Character ;
+        c:name  "alishis" .
+
+d:95423233  a   c:Character ;
+        c:name  "Keulaner" .
+
+d:95111588  a   c:Character ;
+        c:name  "Cit B" .
+
+d:95455686  a   c:Character ;
+        c:name  "Blesku Audene" .
+
+d:45980467  c:attacker  d:90319222 , d:418214477 , d:2049589785 , d:95231650 ;
+        c:killTime     "2015-04-14T17:35:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31000423 ;
+        c:totalValue   2.733284448E7 ;
+        c:victim       d:93280402 .
+
+d:285325074  a  c:Character ;
+        c:name  "Chuss" .
+
+d:98135764  a   c:Corporation ;
+        c:name  "Magicka Industries" .
+
+d:49445955  c:attacker  d:90319222 , d:418214477 ;
+        c:killTime     "2015-10-05T18:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001782 ;
+        c:totalValue   3.963013E4 ;
+        c:victim       d:95696131 .
+
+d:49089072  c:attacker  d:90319222 , d:95231650 , d:90480201 , d:332669222 ;
+        c:killTime     "2015-09-16T16:26:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       3 ;
+        c:solarSystem  d:31001075 ;
+        c:totalValue   3.467066059E7 ;
+        c:victim       d:92480553 .
+
+d:1039743689  a  c:Character ;
+        c:name  "wabbitrage" .
+
+d:91095658  a   c:Character ;
+        c:name  "MJ Canter" .
+
+d:47032883  c:attacker  d:90319222 , d:418214477 ;
+        c:killTime     "2015-06-03T07:45:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31002531 ;
+        c:totalValue   3.714932261E7 ;
+        c:victim       d:95423233 .
+
+d:45515463  c:attacker  d:90319222 , d:418214477 , d:332669222 , d:95231650 ;
+        c:killTime     "2015-03-26T12:11:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001360 ;
+        c:totalValue   5.5083721E6 ;
+        c:victim       d:98376710 .
+
+d:945465526  a  c:Character ;
+        c:name  "APrilRyan" .
+
+d:49797605  c:attacker  d:418214477 , d:95551617 , d:95328956 , d:332669222 , d:90319222 , d:90480201 ;
+        c:killTime     "2015-10-25T11:18:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001084 ;
+        c:totalValue   2.154670673E8 ;
+        c:victim       d:93330403 .
+
+d:45884989  c:attacker  d:91095658 , d:90319222 ;
+        c:killTime     "2015-04-10T18:19:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       49 ;
+        c:solarSystem  d:31002263 ;
+        c:totalValue   1.4618413617E8 ;
+        c:victim       d:2042705800 .
+
+d:49427458  c:attacker  d:90319222 ;
+        c:killTime     "2015-10-04T19:26:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       3 ;
+        c:solarSystem  d:31001631 ;
+        c:totalValue   5.979612614E7 ;
+        c:victim       d:95539352 .
+
+d:1680606372  a  c:Character ;
+        c:name  "titanluxx" .
+
+d:93931319  a   c:Character ;
+        c:name  "Tumeteus Ambraelle" .
+
+d:92418214  a   c:Character ;
+        c:name  "space txiki vortex" .
+
+d:443254615  a  c:Character ;
+        c:name  "Hikryon" .
+
+d:90450143  a   c:Character ;
+        c:name  "shaburik" .
+
+d:95524275  a   c:Character ;
+        c:name  "Trey Osiris" .
+
+d:50085982  c:attacker  d:94569542 , d:418214477 , d:95551617 , d:95616217 , d:293066751 , d:90319222 , d:90480201 ;
+        c:killTime     "2015-11-09T16:46:35"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       8 ;
+        c:solarSystem  d:31001585 ;
+        c:totalValue   9.474159526E7 ;
+        c:victim       d:92027145 .
+
+d:92433365  a   c:Character ;
+        c:name  "Kugar Haklar" .
+
+d:95328956  a   c:Character ;
+        c:name  "RacsotA Trald" .
+
+d:90480201  a   c:Character ;
+        c:name  "Peonza Chan" .
+
+d:94411138  a   c:Character ;
+        c:name  "Anelle Orlenard" .
+
+d:46056216  c:attacker  d:90319222 , d:418214477 ;
+        c:killTime     "2015-04-18T10:04:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31002526 ;
+        c:totalValue   6.305909E4 ;
+        c:victim       d:95524275 .
+
+d:50386040  c:attacker  d:91525773 , d:90480201 , d:90319222 ;
+        c:killTime     "2015-11-27T19:26:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001033 ;
+        c:totalValue   10000 ;
+        c:victim       d:92879356 .
+
+d:49474865  c:attacker  d:94569542 , d:90480201 , d:90319222 , d:92418214 , d:95231650 , d:418214477 ;
+        c:killTime     "2015-10-07T15:22:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       86 ;
+        c:solarSystem  d:31001156 ;
+        c:totalValue   2.1527183868E8 ;
+        c:victim       d:1632100333 .
+
+d:95551617  a   c:Character ;
+        c:name  "Shalant Traslas" .
+
+d:44952692  c:attacker  d:90480201 , d:1990124223 , d:90319222 ;
+        c:killTime     "2015-03-01T17:06:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001130 ;
+        c:totalValue   1.68425347E6 ;
+        c:victim       d:93324788 .
+
+d:91525773  a   c:Character ;
+        c:name  "Mari Kudo" .
+
+d:46114116  c:attacker  d:90319222 , d:90480201 , d:1990124223 , d:418214477 , d:95231650 ;
+        c:killTime     "2015-04-20T18:42:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       99 ;
+        c:solarSystem  d:31000878 ;
+        c:totalValue   5.0392283593E8 ;
+        c:victim       d:91904860 .
+
+d:445724711  a  c:Character ;
+        c:name  "Kudo Khan" .
+
+d:90458637  a   c:Character ;
+        c:name  "Sellana Andedare" .
+
+d:90277016  a   c:Character ;
+        c:name  "CORONELJOHN" .
+
+d:90406974  a   c:Character ;
+        c:name  "XegearZ" .
+
+d:1215284951  a  c:Character ;
+        c:name  "Spaceball 1" .
+
+d:93324788  a   c:Character ;
+        c:name  "Serg XZ" .
+
+d:44952729  c:attacker  d:90319222 , d:1990124223 ;
+        c:killTime     "2015-03-01T17:07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001130 ;
+        c:totalValue   10000 ;
+        c:victim       d:93324788 .
+
+d:1212349403  a  c:Character ;
+        c:name  "Ceasari" .
+
+d:94838684  a   c:Character ;
+        c:name  "Karina Palarem" .
+
+d:536552627  a  c:Corporation ;
+        c:name  "Red-White-River" .
+
+d:1386141685  a  c:Character ;
+        c:name  "Snegom stat" .
+
+d:46497185  c:attacker  d:464100216 , d:332669222 , d:1369913768 , d:1990124223 , d:418214477 , d:90319222 , d:95328956 , d:445724711 , d:91525773 , d:90480201 ;
+        c:killTime     "2015-05-08T20:16:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001585 ;
+        c:totalValue   3.45041656E6 ;
+        c:victim       d:1393902911 .
+
+d:1330655254  a  c:Character ;
+        c:name  "Systemoverride" .
+
+d:45502035  c:attacker  d:90319222 , d:418214477 ;
+        c:killTime     "2015-03-25T20:29:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31000982 ;
+        c:totalValue   10000 ;
+        c:victim       d:95394427 .
+
+d:95292686  a   c:Character ;
+        c:name  "Maks Saken" .
+
+d:1138746630  a  c:Character ;
+        c:name  "prostoDoom" .
+
+d:93235590  a   c:Character ;
+        c:name  "Alex ProstoAlex" .
+
+d:90062797  a   c:Character ;
+        c:name  "Bourne Keel" .
+
+d:1203332171  a  c:Character ;
+        c:name  "Vik'Hodur" .
+
+d:45133641  c:attacker  d:150051318 , d:1203332171 , d:90319222 , d:418214477 ;
+        c:killTime     "2015-03-09T15:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001680 ;
+        c:totalValue   2.3282988063E8 ;
+        c:victim       d:93539963 .
+
+d:2049589785  a  c:Character ;
+        c:name  "LolaMento" .
+
+d:171465940  a  c:Character ;
+        c:name  "Dimann80" .
+
+d:44627743  c:attacker  d:332669222 , d:1369913768 , d:418214477 , d:90319222 , d:91525773 ;
+        c:killTime     "2015-02-15T13:23:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       2 ;
+        c:solarSystem  d:31000970 ;
+        c:totalValue   5.22498175E6 ;
+        c:victim       d:98135764 .
+
+d:1393902911  a  c:Corporation ;
+        c:name  "Immunity Syndrome" .
+
+d:1632100333  a  c:Character ;
+        c:name  "Kibmatar" .
+
+d:732727415  a  c:Character ;
+        c:name  "Belgann" .
+
+d:90555244  a   c:Character ;
+        c:name  "Plyt Flemeth" .
+
+d:93280402  a   c:Character ;
+        c:name  "Common Time" .
+
+d:50370243  c:attacker  d:90319222 , d:418214477 ;
+        c:killTime     "2015-11-26T18:55:05"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001194 ;
+        c:totalValue   1.6194253702E8 ;
+        c:victim       d:93756439 .
+
+d:45929493  c:attacker  d:95231650 , d:90319222 ;
+        c:killTime     "2015-04-12T09:29:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       6 ;
+        c:solarSystem  d:31001214 ;
+        c:totalValue   1.9329772289E8 ;
+        c:victim       d:93235590 .
+
+d:49445953  c:attacker  d:90319222 , d:418214477 ;
+        c:killTime     "2015-10-05T18:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       45 ;
+        c:solarSystem  d:31001782 ;
+        c:totalValue   8.216092749E7 ;
+        c:victim       d:95696131 .
+
+d:49777167  c:attacker  d:90319222 ;
+        c:killTime     "2015-10-24T14:10:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       2 ;
+        c:solarSystem  d:31000650 ;
+        c:totalValue   4.203938861E7 ;
+        c:victim       d:407579967 .
+
+d:94569542  a   c:Character ;
+        c:name  "M'lady Dax" .
+
+d:46114019  c:attacker  d:90480201 , d:90319222 , d:418214477 , d:95231650 ;
+        c:killTime     "2015-04-20T18:36:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       161 ;
+        c:solarSystem  d:31000878 ;
+        c:totalValue   1.20397896616E9 ;
+        c:victim       d:91904860 .
+
+d:44627751  c:attacker  d:332669222 , d:91525773 , d:1369913768 , d:418214477 , d:90319222 ;
+        c:killTime     "2015-02-15T13:24:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31000970 ;
+        c:totalValue   1.871517676E8 ;
+        c:victim       d:98135764 .
+
+d:49777225  c:attacker  d:418214477 , d:90319222 , d:293066751 , d:90480201 ;
+        c:killTime     "2015-10-24T14:14:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       104 ;
+        c:solarSystem  d:31000650 ;
+        c:totalValue   5.7071594801E8 ;
+        c:victim       d:1281870597 .
+
+d:45980473  c:attacker  d:90319222 , d:2049589785 , d:95231650 , d:418214477 ;
+        c:killTime     "2015-04-14T17:35:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31000423 ;
+        c:totalValue   4.217090249E7 ;
+        c:victim       d:93280402 .
+
+d:49797603  c:attacker  d:95328956 , d:90319222 , d:1203332171 , d:332669222 , d:90480201 , d:418214477 ;
+        c:killTime     "2015-10-25T11:17:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       110 ;
+        c:solarSystem  d:31001084 ;
+        c:totalValue   9.707169924E8 ;
+        c:victim       d:93330403 .
+
+d:412009136  a  c:Character ;
+        c:name  "Basquegran" .
+
+d:50051345  c:attacker  d:443254615 , d:92418214 , d:95859770 , d:95808144 , d:418214477 , d:332669222 , d:95551617 , d:90319222 , d:293066751 , d:95455686 , d:94569542 ;
+        c:killTime     "2015-11-07T23:44:55"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001585 ;
+        c:totalValue   2.4482973347E8 ;
+        c:victim       d:90413758 .
+
+d:49776061  c:attacker  d:90319222 ;
+        c:killTime     "2015-10-24T13:07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       6 ;
+        c:solarSystem  d:31000650 ;
+        c:totalValue   6.85594541E6 ;
+        c:victim       d:407579967 .
+
+d:91904860  a   c:Character ;
+        c:name  "Ron Klingerius" .
+
+d:90208904  a   c:Character ;
+        c:name  "Hopobcn" .
+
+d:712799726  a  c:Character ;
+        c:name  "starlyns" .
+
+d:1490827792  a  c:Character ;
+        c:name  "iblizz" .
+
+d:19043475  c:attacker  d:90406974 , d:167291945 , d:1138746630 , d:1377851479 , d:1490827792 , d:945465526 , d:1195246482 , d:285325074 , d:90503533 , d:1754401386 , d:978772744 , d:1183705912 , d:743203797 , d:90062797 , d:90132256 , d:418214477 , d:1330655254 , d:1338345669 , d:90497350 , d:90319222 , d:886825390 , d:90277016 , d:1009086228 , d:712799726 , d:199694583 , d:1990124223 , d:1530546530 , d:802909096 , d:1212349403 , d:731800840 , d:106250826 , d:1937859658 , d:1507481627 , d:1727654407 , d:828337532 , d:1386141685 , d:90527521 , d:90450143 , d:1843956737 , d:90555244 , d:90679574 , d:171465940 ;
+        c:killTime     "2011-06-28T23:28:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:30000542 ;
+        c:totalValue   3.4882012906E8 ;
+        c:victim       d:536552627 .
+
+d:978772744  a  c:Character ;
+        c:name  "Dibneres" .
+
+d:44917044  c:attacker  d:481695044 , d:90319222 , d:418214477 , d:91095658 ;
+        c:killTime     "2015-02-28T09:20:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31000462 ;
+        c:totalValue   3.56535264E7 ;
+        c:victim       d:95292686 .
+
+d:49542043  c:attacker  d:91095658 , d:90319222 , d:445724711 , d:418214477 ;
+        c:killTime     "2015-10-11T10:05:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       47 ;
+        c:solarSystem  d:31000686 ;
+        c:totalValue   2.089564777E8 ;
+        c:victim       d:1601792229 .
+
+d:828337532  a  c:Character ;
+        c:name  "Xorader" .
+
+d:1009086228  a  c:Character ;
+        c:name  "KpbIcc" .
+
+d:93969360  a   c:Character ;
+        c:name  "Mouxtis" .
+
+d:49930565  c:attacker  d:412009136 , d:418214477 , d:94569542 , d:90319222 , d:90480201 ;
+        c:killTime     "2015-11-01T13:22:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       163 ;
+        c:solarSystem  d:31001204 ;
+        c:totalValue   2.1744843422E8 ;
+        c:victim       d:93931319 .
+
+d:45535538  c:attacker  d:90319222 , d:90480201 ;
+        c:killTime     "2015-03-27T08:48:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       27 ;
+        c:solarSystem  d:31000984 ;
+        c:totalValue   8.038475692E7 ;
+        c:victim       d:94411138 .
+
+d:1990124223  a  c:Character ;
+        c:name  "Meresh" .
+
+d:363139547  a  c:Character ;
+        c:name  "R Soldier" .
+
+d:45133610  c:attacker  d:90319222 , d:418214477 , d:150051318 , d:1203332171 ;
+        c:killTime     "2015-03-09T14:57:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       83 ;
+        c:solarSystem  d:31001680 ;
+        c:totalValue   2.0368174799E8 ;
+        c:victim       d:93539963 .
+
+d:45451727  c:attacker  d:95231650 , d:90319222 , d:418214477 ;
+        c:killTime     "2015-03-23T11:56:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       7 ;
+        c:solarSystem  d:31001166 ;
+        c:totalValue   1.3709372659E8 ;
+        c:victim       d:94838684 .
+
+d:92480553  a   c:Character ;
+        c:name  "Maxon Aideron" .
+
+d:1895272296  a  c:Character ;
+        c:name  "Zillnar" .
+
+d:95394427  a   c:Character ;
+        c:name  "Neel McColy" .
+
+d:1843956737  a  c:Character ;
+        c:name  "OxOdIO" .
+
+d:49117027  c:attacker  d:90114174 , d:90319222 , d:418214477 ;
+        c:killTime     "2015-09-18T08:42:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31000783 ;
+        c:totalValue   3.2254999456E8 ;
+        c:victim       d:92433365 .
+
+d:1412040066  a  c:Character ;
+        c:name  "xXDarkgirlXx" .
+
+d:50372381  c:attacker  d:90319222 , d:90480201 , d:94569542 , d:445724711 , d:95616217 ;
+        c:killTime     "2015-11-26T20:54:30"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31000534 ;
+        c:totalValue   2.6110383932E8 ;
+        c:victim       d:90614216 .
+
+d:1377851479  a  c:Character ;
+        c:name  "Immhottep" .
+
+d:90497350  a   c:Character ;
+        c:name  "Mafouz Gaterau" .
+
+d:45515480  c:attacker  d:418214477 , d:90319222 , d:332669222 , d:95231650 ;
+        c:killTime     "2015-03-26T12:12:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001360 ;
+        c:totalValue   5.11650321E6 ;
+        c:victim       d:98376710 .
+
+d:1281870597  a  c:Character ;
+        c:name  "Suicid3 Silence" .
+
+d:49089823  c:attacker  d:2059228597 , d:90480201 , d:90319222 ;
+        c:killTime     "2015-09-16T17:25:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       3 ;
+        c:solarSystem  d:31000952 ;
+        c:totalValue   5.2059527813E8 ;
+        c:victim       d:90458637 .
+
+d:1195246482  a  c:Character ;
+        c:name  "Lt Klap" .
+
+d:90503533  a   c:Character ;
+        c:name  "Maloxkov Malukkar" .
+
+d:95262345  a   c:Character ;
+        c:name  "Mitras62 Mithras" .
+
+d:49088304  c:attacker  d:90319222 , d:90480201 , d:95231650 , d:418214477 ;
+        c:killTime     "2015-09-16T15:26:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001075 ;
+        c:totalValue   4.169066901E7 ;
+        c:victim       d:95521290 .
+
+d:90132256  a   c:Character ;
+        c:name  "Riddik's" .
+
+d:106250826  a  c:Character ;
+        c:name  "gangoso" .
+
+d:49542112  c:attacker  d:445724711 , d:90319222 ;
+        c:killTime     "2015-10-11T10:12:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31000686 ;
+        c:totalValue   3.607563319E7 ;
+        c:victim       d:93969360 .
+
+d:95859770  a   c:Character ;
+        c:name  "Mayaki Taredi" .
+
+d:743203797  a  c:Character ;
+        c:name  "Nimf" .
+
+d:49474874  c:attacker  d:94569542 , d:90319222 , d:418214477 , d:95231650 , d:92418214 ;
+        c:killTime     "2015-10-07T15:22:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001156 ;
+        c:totalValue   10000 ;
+        c:victim       d:1632100333 .
+
+d:1136333722  a  c:Character ;
+        c:name  "Niaden" .
+
+d:46496961  c:attacker  d:1369913768 , d:464100216 , d:418214477 , d:91525773 , d:95328956 , d:332669222 , d:445724711 , d:90319222 , d:90480201 , d:1990124223 ;
+        c:killTime     "2015-05-08T20:05:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       2 ;
+        c:solarSystem  d:31001585 ;
+        c:totalValue   2.9182024657E8 ;
+        c:victim       d:1393902911 .
+
+d:91053011  a   c:Character ;
+        c:name  "Anubis drakons" .
+
+d:50372426  c:attacker  d:94569542 , d:95455686 , d:95616217 , d:1680606372 , d:90319222 , d:445724711 , d:90480201 ;
+        c:killTime     "2015-11-26T20:56:41"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       26 ;
+        c:solarSystem  d:31000534 ;
+        c:totalValue   2.4541691244E8 ;
+        c:victim       d:93649963 .
+
+d:1754401386  a  c:Character ;
+        c:name  "Gaivla al'Ulqua" .
+
+d:50051330  c:attacker  d:90319222 , d:95808144 , d:293066751 , d:443254615 , d:95551617 , d:95455686 , d:1550420171 , d:92418214 , d:332669222 , d:94569542 , d:95859770 , d:418214477 ;
+        c:killTime     "2015-11-07T23:43:48"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001585 ;
+        c:totalValue   2.4298416347E8 ;
+        c:victim       d:91461380 .
+
+d:481695044  a  c:Character ;
+        c:name  "Belmaniac" .
+
+d:150051318  a  c:Character ;
+        c:name  "RipperJP" .
+
+d:46419127  c:attacker  d:90319222 , d:445724711 , d:90480201 ;
+        c:killTime     "2015-05-04T19:40:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001509 ;
+        c:totalValue   1.4483206057E8 ;
+        c:victim       d:91278256 .
+
+d:95808144  a   c:Character ;
+        c:name  "King Bongo" .
+
+d:22204816  c:attacker  d:90406974 , d:363139547 , d:1990124223 , d:886825390 , d:418214477 , d:332669222 , d:90319222 , d:91053011 , d:1136333722 ;
+        c:killTime     "2012-02-08T15:58:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       2 ;
+        c:solarSystem  d:30000738 ;
+        c:totalValue   1.799E8 ;
+        c:victim       d:98044009 .
+
+d:44612674  c:attacker  d:95231650 , d:90319222 , d:90480201 , d:91525773 ;
+        c:killTime     "2015-02-14T22:05:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       41 ;
+        c:solarSystem  d:31000970 ;
+        c:totalValue   1.1071235187E8 ;
+        c:victim       d:732727415 .
+
+d:93539963  a   c:Character ;
+        c:name  "Jack Hant" .
+
+d:1727654407  a  c:Character ;
+        c:name  "GorgDalor" .
+
+d:167291945  a  c:Character ;
+        c:name  "cahos" .
+
+d:50386257  c:attacker  d:91525773 , d:90319222 ;
+        c:killTime     "2015-11-27T19:36:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001033 ;
+        c:totalValue   10000 ;
+        c:victim       d:95943986 .
+
+d:50388931  c:attacker  d:332669222 , d:90319222 , d:91525773 ;
+        c:killTime     "2015-11-27T21:32:17"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001504 ;
+        c:totalValue   4.526636735E7 ;
+        c:victim       d:95365668 .
+
+d:1338345669  a  c:Character ;
+        c:name  "VidocQQ" .
+
+d:49777268  c:attacker  d:95551617 , d:418214477 , d:90480201 , d:293066751 , d:90319222 , d:1550420171 ;
+        c:killTime     "2015-10-24T14:16:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       62 ;
+        c:solarSystem  d:31000650 ;
+        c:totalValue   4.9310268128E8 ;
+        c:victim       d:1412040066 .
+
+d:95943986  a   c:Character ;
+        c:name  "TheFaez Kashada" .
+
+d:46496956  c:attacker  d:1369913768 , d:95328956 , d:90480201 , d:1990124223 , d:332669222 , d:464100216 , d:445724711 , d:91525773 , d:90319222 , d:418214477 ;
+        c:killTime     "2015-05-08T20:05:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001585 ;
+        c:totalValue   1.018507006E7 ;
+        c:victim       d:1393902911 .
+
+d:95616217  a   c:Character ;
+        c:name  "Primiwi IMP" .
+
+d:603735610  a  c:Character ;
+        c:name  "LadyLight" .
+
+d:90679574  a   c:Character ;
+        c:name  "Caroline Hamelton" .
+
+d:45535544  c:attacker  d:95231650 , d:90319222 , d:90480201 ;
+        c:killTime     "2015-03-27T08:49:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31000984 ;
+        c:totalValue   9.675864901E7 ;
+        c:victim       d:94411138 .
+
+d:50372400  c:attacker  d:90319222 , d:90480201 , d:445724711 , d:94569542 , d:1680606372 , d:95616217 ;
+        c:killTime     "2015-11-26T20:55:29"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31000534 ;
+        c:totalValue   10000 ;
+        c:victim       d:90614216 .
+
+d:49088299  c:attacker  d:90319222 , d:418214477 , d:90480201 , d:95231650 ;
+        c:killTime     "2015-09-16T15:25:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       8 ;
+        c:solarSystem  d:31001075 ;
+        c:totalValue   2.8674730268E8 ;
+        c:victim       d:95521290 .
+
+d:332669222  a  c:Character ;
+        c:name  "Feedman Kassad" .
+
+d:1369913768  a  c:Character ;
+        c:name  "Souiam" .
+
+d:49729238  c:attacker  d:95616217 , d:445724711 , d:95262345 , d:90319222 , d:418214477 , d:464100216 , d:90480201 , d:90208904 ;
+        c:killTime     "2015-10-21T19:10:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31002304 ;
+        c:totalValue   7.600891523E7 ;
+        c:victim       d:1895272296 .
+
+d:731800840  a  c:Character ;
+        c:name  "Hart Valientt" .
+
+d:49117025  c:attacker  d:95551617 , d:90319222 , d:90114174 , d:418214477 ;
+        c:killTime     "2015-09-18T08:42:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31000783 ;
+        c:totalValue   1.1609740784E8 ;
+        c:victim       d:92433365 .
+
+d:49930516  c:attacker  d:90319222 , d:557742561 ;
+        c:killTime     "2015-11-01T13:19:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       1 ;
+        c:solarSystem  d:31001204 ;
+        c:totalValue   1.0207132775E8 ;
+        c:victim       d:95262345 .
+
+d:49777163  c:attacker  d:90319222 ;
+        c:killTime     "2015-10-24T14:10:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       6 ;
+        c:solarSystem  d:31000650 ;
+        c:totalValue   3.81882283E6 ;
+        c:victim       d:407579967 .
+
+d:98376710  a   c:Corporation ;
+        c:name  "Home Sweet Hole" .
+
+d:90413758  a   c:Character ;
+        c:name  "Kermit Amatin" .
+
+d:91461380  a   c:Character ;
+        c:name  "MichalSW Tengu" .
+
+d:92879356  a   c:Character ;
+        c:name  "Nythia Runner" .
+
+d:93756439  a   c:Character ;
+        c:name  "Corraidhin Farsaidh" .
+
+d:1550420171  a  c:Character ;
+        c:name  "Argon Sphere" .
+
+d:44327951  c:attacker  d:90319222 , d:418214477 ;
+        c:killTime     "2015-02-02T10:55:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        c:points       20 ;
+        c:solarSystem  d:31001215 ;
+        c:totalValue   1.0012052601E8 ;
+        c:victim       d:95111588 .
+
+d:95539352  a   c:Character ;
+        c:name  "Moose Okel" .
+
+d:407579967  a  c:Character ;
+        c:name  "Silence IIV" .
+
+d:95696131  a   c:Character ;
+        c:name  "Genius Tekila" .
+
+d:418214477  a  c:Character ;
+        c:name  "Nuith Aiur" .
+
+d:93649963  a   c:Character ;
+        c:name  "Rafael Tsoren" .
+
+d:95365668  a   c:Character ;
+        c:name  "Kesux83 Dede" .

@@ -1,0 +1,68 @@
+Assault Ship: 100
+Assembly Array: 10
+Attack Battlecruiser: 300
+Battlecruiser: 250
+Battleship: 750
+Black Ops: 1800
+Blockade Runner: 125
+Capital Industrial Ship: 1000
+Capsule: 5
+Carrier: 3000
+Combat Recon Ship: 350
+Command Ship: 450
+Control Tower: 250
+Corporate Hangar Array: 50
+Covert Ops: 80
+Cruiser: 100
+Cynosural Generator Array: 10
+Cynosural System Jammer: 50
+Destroyer: 60
+Dreadnought: 4000
+Electronic Attack Ship: 200
+Electronic Warfare Battery: 50
+Energy Neutralizing Battery: 50
+Exhumer: 20
+Force Recon Ship: 350
+Freighter: 300
+Frigate: 50
+Heavy Assault Ship: 400
+Heavy Interdictor: 600
+Industrial: 20
+Industrial Command Ship: 800
+Infrastructure Hubs: 500
+Interceptor: 60
+Interdictor: 60
+Jump Freighter: 500
+Jump Portal Array: 10
+Logistics: 175
+Marauder: 1000
+Mining Barge: 20
+Mobile Hybrid Sentry: 10
+Mobile Laboratory: 10
+Mobile Laser Sentry: 10
+Mobile Missile Sentry: 10
+Mobile Projectile Sentry: 10
+Mobile Reactor: 10
+Moon Mining: 10
+Orbital Construction Platform: 5
+Orbital Infrastructure: 500
+Prototype Exploration Ship: 5
+Refining Array: 10
+Rookie ship: 5
+Scanner Array: 10
+Sensor Dampening Battery: 10
+Shield Hardening Array: 10
+Ship Maintenance Array: 10
+Shuttle: 5
+Silo: 10
+Sovereignty Blockade Units: 250
+Stasis Webification Battery: 10
+Stealth Bomber: 80
+Strategic Cruiser: 750
+Supercarrier: 6000
+Tactical Destroyer: 250
+Territorial Claim Units: 500
+Titan: 20000
+Tracking Array: 10
+Transport Ship: 30
+Warp Scrambling Battery: 10

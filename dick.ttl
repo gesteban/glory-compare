@@ -17,6 +17,16 @@
 #################################################################
 
 
+###  http://comparedick.glory/def#attacker
+
+dick:attacker rdf:type owl:ObjectProperty ;
+              
+              rdfs:range dick:Entity ;
+              
+              rdfs:domain dick:Kill .
+
+
+
 ###  http://comparedick.glory/def#isPartOf
 
 dick:isPartOf rdf:type owl:ObjectProperty ,
@@ -28,24 +38,22 @@ dick:isPartOf rdf:type owl:ObjectProperty ,
 
 
 
-###  http://comparedick.glory/def#killAttacker
+###  http://comparedick.glory/def#kill
 
-dick:killAttacker rdf:type owl:ObjectProperty ;
-                  
-                  rdfs:range dick:Entity ;
-                  
-                  rdfs:domain dick:Kill .
+dick:kill rdf:type owl:ObjectProperty ;
+          
+          owl:inverseOf dick:attacker .
 
 
 
-###  http://comparedick.glory/def#killVictim
+###  http://comparedick.glory/def#victim
 
-dick:killVictim rdf:type owl:FunctionalProperty ,
-                         owl:ObjectProperty ;
-                
-                rdfs:range dick:Entity ;
-                
-                rdfs:domain dick:Kill .
+dick:victim rdf:type owl:FunctionalProperty ,
+                     owl:ObjectProperty ;
+            
+            rdfs:range dick:Entity ;
+            
+            rdfs:domain dick:Kill .
 
 
 
@@ -58,9 +66,9 @@ dick:killVictim rdf:type owl:FunctionalProperty ,
 #################################################################
 
 
-###  http://comparedick.glory/def#killDate
+###  http://comparedick.glory/def#killTime
 
-dick:killDate rdf:type owl:DatatypeProperty ,
+dick:killTime rdf:type owl:DatatypeProperty ,
                        owl:FunctionalProperty ;
               
               rdfs:domain dick:Kill ;
@@ -69,25 +77,33 @@ dick:killDate rdf:type owl:DatatypeProperty ,
 
 
 
-###  http://comparedick.glory/def#killPoints
+###  http://comparedick.glory/def#name
 
-dick:killPoints rdf:type owl:DatatypeProperty ,
+dick:name rdf:type owl:DatatypeProperty ;
+          
+          rdfs:domain dick:Entity .
+
+
+
+###  http://comparedick.glory/def#points
+
+dick:points rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            
+            rdfs:domain dick:Kill ;
+            
+            rdfs:range xsd:integer .
+
+
+
+###  http://comparedick.glory/def#totalValue
+
+dick:totalValue rdf:type owl:DatatypeProperty ,
                          owl:FunctionalProperty ;
                 
                 rdfs:domain dick:Kill ;
                 
-                rdfs:range xsd:integer .
-
-
-
-###  http://comparedick.glory/def#killValue
-
-dick:killValue rdf:type owl:DatatypeProperty ,
-                        owl:FunctionalProperty ;
-               
-               rdfs:domain dick:Kill ;
-               
-               rdfs:range xsd:float .
+                rdfs:range xsd:float .
 
 
 
