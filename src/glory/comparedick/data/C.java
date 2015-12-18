@@ -1,4 +1,4 @@
-package glory.comparedick.model;
+package glory.comparedick.data;
 
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;

@@ -3,10 +3,7 @@ package glory.comparedick;
 import java.util.Calendar;
 
 /**
- * Simple logger.
- * 
- * @author gesteban
- *
+ * @author ggestebanp@gmail.com
  */
 public class Log {
 
